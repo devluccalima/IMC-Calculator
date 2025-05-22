@@ -32,7 +32,7 @@ O projeto é composto pelos seguintes arquivos:
 
     O resultado é exibido na tela, juntamente com a classificação correspondente.
 
-## 📈 Classificação do IMC
+📈 Classificação do IMC
 
 | IMC              | Classificação        |
 |------------------|----------------------|

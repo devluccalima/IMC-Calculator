@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --primary-color: rgb(67, 163, 175);
+    --button-color: rgb(50, 62, 63);
+}
+
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--button-color);
+}
+
+.resultado-valido{
+    background: rgb(124, 255, 124);
+    padding: 10px;
+}
+
+.resultado-invalido{
+    background: rgb(255, 124, 124);
+    padding: 10px
+}
+
+.tabelas-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.indice-imc, .div-indice{
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
